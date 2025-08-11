@@ -1,0 +1,3 @@
+(executable
+  (name HW1)
+  (libraries base stdio))
