@@ -36,9 +36,13 @@ let set_diff a b =
   in
   go a b []
 
-(* Take a predicate, function and point,
-  and keep applying f(point) until same result *)
+(* Computed Fixed Point: Take a predicate,
+function and point, and keep applying f(point)
+ until same result *)
 
-let computed_fixed_point eq f x =
+(* In progress *)
+(* let computed_fixed_point eq f x =
   let rec go eq f acc = 4 in
-  match acc with val1, val2 -> val1 in go eq f (3, 3)
+  match acc with
+  | val1, val2 -> val1
+ |  in go eq f (3, 3) *)
